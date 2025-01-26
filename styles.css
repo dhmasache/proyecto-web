@@ -42,31 +42,71 @@
 }
 
 .iron-man-section {
-
     width: 100vw;
     height: 210vh;
-    background-image: url(images/fondo-iron-man.png);
+    background-image: url(images/fondo-iron-man.webp);
     background-repeat: no-repeat;
     background-position: center;
+}
 
+.iron-man-section figure {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.iron-man-section img {
+    width: 40%;
 }
 
 .capitan-america-section {
-
     width: 100vw;
     height: 210vh;
-    background-image: url(images/fondo-capitan.png);
+    background-image: url(images/fondo-capitan.webp);
     background-repeat: no-repeat;
     background-position: center;
-
 }
+
+.capitan-america-section figure {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.capitan-america-section img {
+    width: 80%;
+    margin-top: 3rem;
+}
+
+
+
 
 .thor-section {
 
     width: 100vw;
     height: 210vh;
-    background-image: url(images/fondo-thor.png);
+    background-image: url(images/fondo-thor.webp);
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+.thor-section figure {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.thor-section img {
+    width: 40%;
+    margin-top: 3rem;
 }
