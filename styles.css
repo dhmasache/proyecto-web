@@ -19,6 +19,7 @@
 
 .marvel-section figure {
     display: flex;
+    /* position: relative; */
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -28,4 +29,14 @@
 .marvel-section img {
     width: 30%;
     height: 100%;
+}
+
+.marvel-logo {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 50%;
+    max-height: 30%;
 }
