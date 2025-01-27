@@ -1,6 +1,8 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: "You Are Loved", sans-serif;
+    letter-spacing: .2rem;
 }
 
 .poppins-regular {
@@ -48,6 +50,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    display: flex;
 }
 
 .iron-man-section figure {
@@ -71,6 +74,15 @@
     background-image: inherit;
     background-clip: padding-box;
     background-size: inherit;
+}
+
+.description-iron-man {
+    color: black;
+    position: absolute;
+    font-size: 1.2rem;
+    width: 40%;
+    top: 30rem;
+    right: 10rem;
 
 }
 
@@ -81,6 +93,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    display: flex;
 }
 
 .capitan-america-section figure {
@@ -117,6 +130,15 @@
     background-size: inherit;
 }
 
+.description-capitan-america {
+    color: #C0C0C0;
+    position: absolute;
+    font-size: 1.2rem;
+    width: 40%;
+    top: 30rem;
+    right: 10rem;
+}
+
 
 
 
@@ -127,6 +149,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    display: flex;
 
 }
 
@@ -147,7 +170,7 @@
 .thor-image {
     position: absolute;
     top: 32rem;
-    left: 10rem;
+    left: 5rem;
     max-width: 40%;
     background-image: inherit;
     background-clip: padding-box;
@@ -171,5 +194,15 @@
 
 .footer-image {
     width: 25%;
+
+}
+
+.description-thor {
+    color: whitesmoke;
+    position: absolute;
+    font-size: 1.2rem;
+    width: 40%;
+    top: 35rem;
+    right: 6rem;
 
 }
