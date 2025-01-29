@@ -5,6 +5,7 @@
     letter-spacing: .2rem;
 }
 
+
 .poppins-regular {
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -16,7 +17,6 @@
     width: 100vw;
     height: 100vh;
     background-color: black;
-
 }
 
 .marvel-section figure {
@@ -41,6 +41,7 @@
     width: 50%;
     max-height: 30%;
 }
+
 
 .iron-man-section {
     width: 100vw;
@@ -83,8 +84,8 @@
     width: 40%;
     top: 30rem;
     right: 10rem;
-
 }
+
 
 .capitan-america-section {
     width: 100vw;
@@ -140,8 +141,6 @@
 }
 
 
-
-
 .thor-section {
     width: 100vw;
     height: 175vh;
@@ -150,7 +149,6 @@
     background-position: center;
     position: relative;
     display: flex;
-
 }
 
 .thor-section figure {
@@ -171,11 +169,74 @@
     position: absolute;
     top: 32rem;
     left: 5rem;
+    max-width: 70vw;
+    background-image: inherit;
+    background-clip: padding-box;
+    background-size: inherit;
+}
+
+.description-thor {
+    color: whitesmoke;
+    position: absolute;
+    font-size: 1.2rem;
+    width: 40%;
+    top: 35rem;
+    right: 6rem;
+}
+
+.spiderman-section {
+    width: 100vw;
+    height: 120vh;
+    background-image: url(images/fondo-spidermna.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+
+.spiderman-section figure {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.spiderman-section img {
+    width: 28%;
+    margin-top: 0.5rem;
+}
+
+.spiderman-image {
+    position: absolute;
+    top: 20em;
+    left: -1rem;
     max-width: 40%;
     background-image: inherit;
     background-clip: padding-box;
     background-size: inherit;
 }
+
+.description-spiderman {
+    color: rgb(0, 0, 128);
+    position: absolute;
+    font-size: 1.4rem;
+    width: 42%;
+    top: 14rem;
+    right: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .footer-section {
     background-color: black;
@@ -194,15 +255,4 @@
 
 .footer-image {
     width: 25%;
-
-}
-
-.description-thor {
-    color: whitesmoke;
-    position: absolute;
-    font-size: 1.2rem;
-    width: 40%;
-    top: 35rem;
-    right: 6rem;
-
 }
