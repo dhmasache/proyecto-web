@@ -270,6 +270,52 @@
     right: 10.3rem;
 }
 
+.pantera-negra-section {
+    width: 100vw;
+    height: 120vh;
+    /* background-color: black; */
+    background-image: url(images/fondo-pantera.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+
+.pantera-negra-section figure {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column
+}
+
+.pantera-negra-section img {
+    width: 29%;
+    margin-top: -0.1rem;
+}
+
+
+.pantera-image {
+    position: absolute;
+    top: 7.9rem;
+    left: 9.5rem;
+    max-width: 19.5%;
+    background-image: inherit;
+    background-clip: padding-box;
+    background-size: inherit;
+}
+
+.description-pantera {
+    color: rgb(28, 28, 28);
+    position: absolute;
+    font-size: 1.4rem;
+    width: 39.1%;
+    top: 15.5rem;
+    right: 0.6rem;
+}
+
+
 
 
 
